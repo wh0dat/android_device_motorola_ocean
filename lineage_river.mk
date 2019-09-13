@@ -72,3 +72,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := motorola/river/river:9/PPOS29.114-16-5-2/6e14b:user/release-keys
+
+# Adoptable Storage (Prevents SDCARD Double Encryption)
+PRODUCT_PROPERTY_OVERRIDES += ro.crypto.allow_encrypt_override=true
