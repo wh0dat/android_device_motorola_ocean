@@ -71,6 +71,9 @@ lib64/libqti_performance.so
 lib64/libqti-perfd-client_system.so
 lib64/vendor.qti.hardware.perf@1.0.so
 
+# Prima WLAN
+bin/wpa_supplicant|c069339da60bf304eb1f34bb704c6d7ce05b446e
+
 # Radio
 -app/datastatusnotification/datastatusnotification.apk|f73d163acf4a9748e27a666fabb382d341150e8e
 -app/embms/embms.apk
