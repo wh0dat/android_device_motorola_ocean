@@ -4,7 +4,16 @@
    "target_path": "kernel/motorola/msm8953"
  },
  {
-   "repository": "android_packages_resources_devicesettings",
-   "target_path": "packages/resources/devicesettings"
- }
+   "remote": "github",
+   "repository": "lineageos/android_packages_resources_devicesettings",
+   "target_path": "packages/resources/devicesettings",
+   "branch": "lineage-16.0",
+   "revision": "lineage-16.0"
+ },
+ {
+    "remote": "github",
+    "repository": "electimon/prebuilts_clang_host_linux-x86_sdclang-6.0.2",
+    "target_path": "prebuilts/clang/host/linux-x86/sdclang-6.0.2",
+    "revision": "android-9.0"
+  }
 ]
