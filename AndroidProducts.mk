@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ocean.mk
+    $(LOCAL_DIR)/rr_ocean.mk
