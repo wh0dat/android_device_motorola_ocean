@@ -17,7 +17,7 @@
 #ifndef _BDROID_BUILDCFG_H
 #define _BDROID_BUILDCFG_H
 
-#define BTM_DEF_LOCAL_NAME "Moto G7"
+#define BTM_DEF_LOCAL_NAME "Moto G7 Power"
 
 #define BLE_VND_INCLUDED   TRUE
 #define BTIF_HF_WBS_PREFERRED TRUE
