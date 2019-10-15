@@ -61,7 +61,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.safx.pbe.enabled=true \
     audio.pp.asphere.enabled=false \
     ro.vendor.gt_library=libqti-gt.so \
-    ro.vendor.at_library=libqti-at.so 
+    ro.vendor.at_library=libqti-at.so
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -87,7 +87,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.vidc.dec.downscalar_height=1088 \
     vendor.video.disable.ubwc=1 \
     vendor.vidc.enc.disable.pq=true \
-    vidc.enc.dcvs.extra-buff-count=2 
+    vidc.enc.dcvs.extra-buff-count=2
 
 # IMS
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -122,3 +122,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.timed.enable=true
 
+# UI
+PRODUCT_PROPERTY_OVERRIDES += \
+    sys.use_fifo_ui=1
