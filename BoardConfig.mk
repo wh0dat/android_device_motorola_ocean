@@ -145,6 +145,20 @@ TARGET_RIL_VARIANT := caf
 
 CUSTOM_APNS_FILE := $(DEVICE_PATH)/configs/custom_apns.xml
 
+
+# SDCLANG
+
+TARGET_USE_SDCLANG := false
+ifneq ($(HOST_OS),darwin)
+
+SDCLANG := true
+SDCLANG_PATH := /home/neon/dotdotdot/omni9/prebuilts/clang/host/linux-x86/sdclang-6.0.2/bin
+SDCLANG_PATH_2 := /home/neon/dotdotdot/omni9/prebuilts/clang/host/linux-x86/sdclang-6.0.2/bin
+SDCLANG_LTO_DEFS := /home/neon/dotdotdot/omni9/device/motorola/ocean/sdllvm-lto-defs.mk
+SDCLANG_COMMON_FLAGS := -O3 -fvectorize -Wno-user-defined-warnings -Wno-vectorizer-no-neon -Wno-unknown-warning-option -Wno-deprecated-register -Wno-tautological-type-limit-compare -Wno-sign-compare -Wno-gnu-folding-constant -mllvm -arm-implicit-it=always -Wno-inline-asm -Wno-unused-command-line-argument -Wno-unused-variable
+
+endif
+
 # SELinux
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += device/qcom/sepolicy/private
