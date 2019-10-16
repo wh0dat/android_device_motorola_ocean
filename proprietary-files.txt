@@ -57,6 +57,9 @@ lib/vendor.qti.hardware.iop@2.0.so
 lib64/vendor.qti.hardware.iop@1.0.so
 lib64/vendor.qti.hardware.iop@2.0.so
 
+# Location
+-priv-app/com.qualcomm.location/com.qualcomm.location.apk
+
 # Media
 lib/libmmosal.so
 lib/vendor.qti.hardware.vpp@1.1.so
